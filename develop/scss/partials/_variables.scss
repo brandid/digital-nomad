@@ -1,0 +1,100 @@
+// Colors
+$black: #000;
+$soft-black: #2c2c2c;
+$white: #fff;
+$soft-white: #eeeef2;
+$grey: #a5abab;
+
+// Testing for color schemes - uncomment to test
+// (Custom Default)
+
+// Background color of buttons and link text color
+$base-color-1: #445740;
+// Header and Footer Background
+$base-color-2: #2c2e2b;
+// Testimonial Background
+$base-color-3: #474b57;
+// Footer Widget 1 Background
+$base-color-4: #965223;
+// Menu color and text color on images
+$base-color-5: #ffffff;
+// Menu and Button Hover
+$base-color-6: #c66c21;
+//
+// Background colors
+$background-color: $white;
+$medium-background-color: #e7e5e7;
+
+// Menu items
+$menu-color: $base-color-5;
+$menu-color--hover: $base-color-6;
+$sub-menu-color: $base-color-5;
+$sub-menu-background: $base-color-1;
+
+// Base colors for text and links
+
+$base-text-color: $soft-black;
+
+$max-width: 1280px; // Global Screen Sizes was 1440px
+//------------------------------------------------------------------------------
+$small1-screen: 320px;
+$small2-screen: 861px;
+$medium-screen: 1024px;
+$large-screen: 1201px;
+$xl-screen: 1341px;
+$xxl-screen: 1600px;
+
+// $small1-screen: 320px;
+// $small2-screen: 768px;
+// $medium-screen: 1024px;
+// $large-screen: 1280px;
+// $xl-screen: 1341px;
+// $xxl-screen: 1600px;
+
+// Global Breakpoints
+//------------------------------------------------------------------------------
+$screen--s1: new-breakpoint(min-width $small1-screen 4);
+$screen--s2: new-breakpoint(min-width $small2-screen 6);
+$screen--m: new-breakpoint(min-width $medium-screen 12);
+$screen--l: new-breakpoint(min-width $large-screen 12);
+$screen--xl: new-breakpoint(min-width $xl-screen 12);
+$screen--xxl: new-breakpoint(min-width $xxl-screen 12);
+
+$screen--768: new-breakpoint(min-width 768px 6);
+$screen--phone: new-breakpoint(max-width 414px 6);
+//
+// // // Global Max Width Settings
+// //------------------------------------------------------------------------------
+$base-wrap-max-width: $max-width - 372px; // 768px;
+$wrap-max-width-medium: $max-width - 180px; // 960px
+$wrap-max-width-large: $max-width;
+
+// Global Font Families
+//------------------------------------------------------------------------------
+$sans-serif: 'Raleway', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+//: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$accent-font: 'Questrial',sans-serif;
+//$serif: 'Playfair Display', 'Times Roman', serif;
+$mono: 'Courier 10 Pitch', Courier, monospace; // Base Font Families
+//------------------------------------------------------------------------------
+// $base-font-family: $sans-serif;
+// $heading-font-family: $sans-serif-alt;
+// $blockquote-font-family: $serif; // Base Font Sizes
+//------------------------------------------------------------------------------
+// Base Typography
+$html-font-size: 62.5%;
+$base-font-size: 18px;
+$base-font-weight: 300;
+$base-line-height: 1.625;
+$heading-line-height: 1.25;
+$heading-font-weight: 300;
+$base-font-size-smaller: 16px;
+// Heading Font Properties
+//------------------------------------------------------------------------------
+$h1-font-size: 36px;
+$h2-font-size: 30px;
+$h3-font-size: 24px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+$h6-font-size: 16px;
+// Header Font Properties

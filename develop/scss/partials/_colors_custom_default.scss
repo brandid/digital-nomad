@@ -1,0 +1,257 @@
+/*
+Colors - All of the elements for default Custom Scheme
+---------------------------------------------------------------------------------------------------- */
+// Base Color 1
+.archive-pagination .active a,
+.button,
+.home .widget .button,
+.menu-toggle,
+.sidebar .enews-widget input[type="submit"],
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+#menu-social-menu li,
+.menu-toggle:focus,
+.menu-toggle:hover,
+.archive-pagination li a:focus,
+.archive-pagination li a:hover {
+  background-color: $base-color-1;
+}
+
+.footer-widgets .footer-widgets-2 a,
+.front-page-1a .widget-title,
+.front-page-2 section.digital-nomad-subtitle:last-of-type p:first-of-type,
+.front-page-3 section.digital-nomad-subtitle:first-of-type p:first-child,
+.menu-social-menu-container li > a,
+.sub-menu-toggle,
+.sub-menu-toggle:focus,
+.sub-menu-toggle:hover,
+.subtitle,
+a {
+  color: $base-color-1;
+}
+
+.footer-widgets .footer-widgets-2 a,
+.home .widget .button,
+.menu-toggle,
+.menu-toggle:focus,
+.menu-toggle:hover,
+.sub-menu-toggle,
+a {
+  border-color: $base-color-1;
+}
+
+// base color 2
+
+.genesis-nav-menu .sub-menu,
+.home.no-featured-section .site-header,
+.js.fixed-header-off .custom-header-background .site-header,
+.js.fixed-header-on .custom-header-background.light .site-header,
+.js.home.fixed-header-on .custom-header-background.open.light .site-header,
+.home.no-featured-section .custom-header-background .site-header,
+.js.home.no-featured-section.fixed-header-on .custom-header-background .site-header,
+.menu-toggle,
+.no-js.custom-header .site-header,
+.site-footer,
+.site-header {
+  background-color: $base-color-2;
+}
+
+.search-form {
+  border-color: $base-color-2;
+}
+
+.entry-title a:focus,
+.entry-title a:hover,
+a:focus,
+a:hover {
+  color: $base-color-2;
+}
+
+// base color 3
+.front-page-testimonials {
+  background-color: $base-color-3;
+}
+
+// base color 4
+
+.footer-widgets-1 {
+  background-color: $base-color-4;
+
+}
+
+// base color 5
+#menu-social-menu li,
+#menu-social-menu li > a:focus,
+#menu-social-menu li > a:hover,
+#menu-social-menu li:focus,
+#menu-social-menu li:hover,
+.footer-widgets .footer-widgets-1 a,
+.footer-widgets .widget-area a.button,
+.genesis-nav-menu a,
+.site-footer,
+.site-footer .genesis-nav-menu a,
+.site-footer a,
+.site-header .site-description,
+.site-header .site-title a {
+  color: $base-color-5;
+}
+
+.footer-widgets .footer-widgets-1 a,
+.footer-widgets .widget-area a.button,
+.site-footer,
+.site-footer a {
+
+  border-bottom-color: $base-color-5;
+}
+
+// base color 6
+.custom-header-background .site-header .site-title a:focus,
+.custom-header-background .site-header .site-title a:hover,
+.genesis-nav-menu .current-menu-item > a,
+.genesis-nav-menu a:focus,
+.genesis-nav-menu a:hover,
+.menu-social-menu-container li > a:focus,
+.menu-social-menu-container li > a:hover,
+.site-footer .genesis-nav-menu .current-menu-item > a,
+.site-footer .genesis-nav-menu a:focus,
+.site-footer .genesis-nav-menu a:hover,
+.site-footer a:focus,
+.site-footer a:hover,
+.site-header .site-title a:focus,
+.site-header .site-title a:hover {
+  color: $base-color-6;
+}
+
+.genesis-nav-menu .current-menu-item > a > span,
+.genesis-nav-menu .current-menu-parent > a > span,
+.genesis-nav-menu a:focus > span,
+.genesis-nav-menu a:hover > span,
+.site-footer .genesis-nav-menu .current-menu-item > a > span,
+.site-footer .genesis-nav-menu .current-menu-parent > a > span,
+.site-footer .genesis-nav-menu a:focus > span,
+.site-footer .genesis-nav-menu a:hover > span {
+  border-bottom-color: $base-color-6;
+
+}
+
+.sidebar .enews-widget input[type="submit"]:focus,
+.sidebar .enews-widget input[type="submit"]:hover,
+.button:focus,
+.button:hover,
+button:focus,
+button:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+.home .widget .button:focus,
+.home .widget .button:focus p,
+.home .widget .button:focus p a,
+.home .widget .button:hover,
+.home .widget .button:hover p,
+.home .widget .button:hover p a,
+menu-social-menu li > a:focus,
+#menu-social-menu li > a:hover,
+#menu-social-menu li:focus,
+#menu-social-menu li:hover {
+  background-color: $base-color-6;
+}
+
+// Other defaults colors not in Customizer
+
+.footer-widgets-2,
+.sidebar .enews-widget,
+.sidebar .enews-widget .widget-title,
+.sidebar .widget.enews-widget {
+  background: $soft-white;
+}
+
+.site-footer .icon {
+  color: $white;
+}
+
+.site-footer a:focus,
+.site-footer a:hover {
+  border-bottom-color: transparent;
+}
+
+.footer-widgets .image-section,
+.footer-widgets .image-section .widget-title,
+.footer-widgets .image-section a,
+.image-section {
+  color: $white;
+}
+
+.footer-widgets .image-section a {
+  border-bottom-color: $white;
+}
+
+.footer-widgets .footer-widgets-1 a:focus,
+.footer-widgets .footer-widgets-1 a:hover,
+.footer-widgets .footer-widgets-2 a:focus,
+.footer-widgets .footer-widgets-2 a:hover {
+  border-bottom-color: transparent;
+}
+
+.fixed-header-on .custom-header-background.light .site-header,
+.home.no-featured-section .site-header,
+.site-header {
+  transition: background-color .3s linear .2s;
+}
+
+.fixed-header-off .custom-header-background .site-header {
+  @include media($screen--m) {
+    transition: background-color .3s linear .2s;
+  }
+}
+
+.js.fixed-header-on .custom-header-background .site-header {
+  @include media($screen--m) {
+    background-color: transparent;
+    transition: background-color .3s linear .2s;
+  }
+}
+
+.entry-title a:focus,
+.entry-title a:hover,
+a:focus,
+a:hover {
+  border-bottom-color: transparent;
+}
+
+.archive-pagination li a:focus,
+.archive-pagination li a:hover {
+
+  background-color: transparent;
+}
+
+.link-has-image {
+  border-color: transparent;
+}
+
+.genesis-nav-menu .sub-menu-toggle {
+  background-color: transparent;
+}
+
+.entry-title,
+.entry-title a,
+.footer-widgets-2 .widget-title,
+.front-page-3 .widget_sp_image-description p:first-child,
+.sidebar .widget-title a {
+  color: $base-text-color;
+}
+
+.genesis-nav-menu .current-menu-item > a > span,
+.genesis-nav-menu .current-menu-parent > a > span,
+.genesis-nav-menu a:focus > span,
+.genesis-nav-menu a:hover > span,
+.site-footer .genesis-nav-menu .current-menu-item > a > span,
+.site-footer .genesis-nav-menu .current-menu-parent > a > span,
+.site-footer .genesis-nav-menu a:focus > span,
+.site-footer .genesis-nav-menu a:hover > span {
+  border-bottom: 2px solid;
+}

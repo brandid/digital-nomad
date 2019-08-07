@@ -1,0 +1,173 @@
+/*
+Widgets
+---------------------------------------------------------------------------------------------------- */
+
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.widget {
+  margin-bottom: 40px;
+  word-wrap: break-word;
+}
+
+.widget p:last-child,
+.widget ul > li:last-of-type,
+.widget-area .widget:last-of-type {
+  margin-bottom: 0;
+}
+
+.widget ul > li {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.widget ul > li:last-of-type {
+  padding-bottom: 0;
+}
+
+.widget ol > li {
+  list-style-position: inside;
+  list-style-type: decimal;
+  padding-left: 20px;
+  text-indent: -20px;
+}
+
+.widget li li {
+  border: 0;
+  margin: 0 0 0 30px;
+  padding: 0;
+}
+
+.widget_calendar table {
+  width: 100%;
+}
+
+.widget_calendar td,
+.widget_calendar th {
+  text-align: center;
+}
+
+.sidebar .widget.widget_search {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.widget .button {
+  font-family: $sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  border: 0;
+  padding: 12px 24px;
+  margin: 12px auto;
+  text-align: center;
+  min-width: 200px;
+  @include media($screen--m) {
+    font-size: 20px;
+  }
+
+}
+
+.widget .button:focus,
+.widget .button:focus p,
+.widget .button:focus p a,
+.widget .button:hover,
+.widget .button:hover p,
+.widget .button:hover p a {
+  border: 0;
+
+}
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+  clear: both;
+  font-size: 18px;
+  padding: 0;
+  z-index: 5;
+}
+
+.footer-widgets .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1 0 50%;
+
+  .widget {
+
+    display: flex;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 320px;
+    display: inline-block;
+    // @include media($screen--m) {
+    //   flex: 1 0 auto;
+    // }
+
+  }
+
+}
+
+.footer-widgets .widget-title {
+  font-weight: 400;
+}
+
+.footer-widgets .widget {
+  margin: 0;
+}
+
+.footer-widgets .widget-wrap .button {
+  font-size: 16px;
+  text-align: center;
+  min-width: 200px;
+  @include media($screen--m) {
+    font-size: 18px;
+  }
+
+}
+
+// .footer-widgets-1 section,
+// .footer-widgets-2 section {
+//   display: flex;
+//   min-height: 200px;
+//   width: 100%;
+//   overflow: hidden;
+//   justify-content: center;
+//   align-items: center;
+//   flex: 1 0 auto;
+//   @include media($screen--m) {
+//     flex: 1 0 auto;
+//   }
+// }
+
+.footer-widgets .widget-wrap {
+  padding: 20px 30px;
+  max-width: 960px;
+  @include media($screen--m) {
+    padding: 20px 40px;
+  }
+  @include media($screen--l) {
+    padding: 20px 5%;
+  }
+}
+
+// .footer-widgets::after,
+// .footer-widgets::before,
+// .site-container::before {
+//   display: none;
+//   content: none;
+//   width: 0;
+// }

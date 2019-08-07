@@ -1,0 +1,42 @@
+/*!
+	Theme Name: Digital Nomad
+	Theme URI: https://thebrandidthemes.com/
+	Description: Theme for Digital Nomads by The brandiD
+	Author: The brandiD
+	Author URI: https://thebrandid.com/
+
+	Version: 1.0.3
+
+	Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-colors, custom-header, custom-menu, featured-images, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+	Template: genesis
+  Template Version: 2.3.1
+
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+	Text Domain: digital-nomad
+*/
+
+// Import Bourbon, Neat, sass-rem
+@import 'bourbon';
+@import 'neat';
+// @import '../../node_modules/sass-rem/rem';
+// Import styles
+@import 'partials/reset';
+@import 'partials/variables';
+@import 'partials/defaults';
+@import 'partials/accessibility';
+@import 'partials/layout';
+@import 'partials/common-classes';
+@import 'partials/widgets';
+@import 'partials/plugins';
+@import 'partials/header';
+@import 'partials/content-area';
+@import 'partials/site-footer';
+@import 'partials/navigation';
+@import 'partials/social-icons';
+@import 'partials/colors_custom_default';
+@import 'partials/custom-classes';
+@import 'partials/print-media-queries';
+//
