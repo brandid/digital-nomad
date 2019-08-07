@@ -7,7 +7,7 @@ If your “office” is anywhere your laptop takes you (and connects to wifi) th
 
 ## Theme Demo
 To see a Demo of the theme, please visit:
-https://digitalnomad.personalbranding.thebrandid.com/
+https://demo.digitalnomad.personalbranding.thebrandid.com/
 
 ## Purchase Theme
 To purchase the theme, please visit:
